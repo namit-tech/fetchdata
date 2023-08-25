@@ -1,0 +1,54 @@
+
+
+.User {
+    width: 30%;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 255, 72, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    padding: 2%;
+
+}
+
+.user-img {
+    width: 20vw;
+    height: 30vh;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name h1 {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:992px) {
+    .User{
+width: 46%;
+    }
+    .user-img{
+        width: 30vw;
+    }
+}
+@media screen and (max-width:768px) {
+    .User{
+        width: 44%;
+            }
+            .user-img{
+                width: 30vw;
+            }
+}
+@media screen and (max-width:576px) {
+    .User{
+        width: 90%;
+            }
+            .user-img{
+                width: 60vw;
+            }
+}
